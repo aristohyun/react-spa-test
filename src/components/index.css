@@ -1,0 +1,84 @@
+body>*{
+    all:unset;
+}
+body{
+    background-color: #f6f7f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+.canvas{
+    width: 400px;
+    height: 400px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(50,50,93,0.11), 0 1px 3px rgba(0,0,0,0.08);
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+.controls{
+    margin:30px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+} 
+.btn{
+    all:unset;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: white;
+    padding: 5px 10px 7px 10px;
+    margin: 3px;
+    width: 80px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(50,50,93,0.11), 0 1px 3px rgba(0,0,0,0.08);
+    border:0.8px solid rgba(0,0,0,0.1);
+    color:rgba(0,0,0,0.9);
+    font-size:12px;
+    font-weight: 800;
+    display:inline-block;
+}
+.btn:hover{
+    transform:scale(1.03);
+}
+.btn:active{
+    transform:scale(0.95);
+}
+.btn.paint{
+    background-color: lightcyan;
+}
+.btn.result{
+    display:none;
+}
+.btn.imgUpload{
+    display:none;
+}
+.resultDiv{
+    margin:10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 800px;
+    border:0.8px solid rgba(0,0,0,0.1);
+}
+.resultImg{
+    margin:0px 30px;
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+.resultContent{
+    border:0.8px solid rgba(0,0,0,0.1);
+    width: 450px;
+    border-radius: 4px;
+}
+.hide{
+    display:none;
+}

@@ -1,6 +1,6 @@
 {
   "name": "react-spa-test",
-  "version": "5.1.0",
+  "version": "0.1.0",
   "private": true,
   "description": "Single Page Apps for GitHub Pages",
   "scripts": {
@@ -29,11 +29,13 @@
     "babel-preset-env": "^1.6.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-1": "^6.24.1",
+    "css-loader": "^3.4.2",
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^14.1.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.10.3",
+    "mini-css-extract-plugin": "^0.9.0",
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.8.2"
   }
