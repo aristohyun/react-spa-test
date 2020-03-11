@@ -8,7 +8,6 @@
 
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import "./index.css";
 //import ReactDom from "react-dom";
 //import PropTypes from "prop-types";
 //import classNames from "./index.css";
